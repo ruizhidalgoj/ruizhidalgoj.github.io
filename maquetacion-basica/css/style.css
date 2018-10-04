@@ -1,0 +1,120 @@
+body {
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
+	background-color: #AED8EF;
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+header{
+	text-align: center;
+}
+
+header > img {
+	width: 400px;
+	height: auto;
+	padding: 15px 30px;
+	background-color: rgba(231,228,220, 0.75);
+	border-radius: 43px 43px 43px 43px;
+	-moz-border-radius: 43px 43px 43px 43px;
+	-webkit-border-radius: 43px 43px 43px 43px;
+	border: 0px solid #000000;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 10px;
+	color: #ffffff;
+	background-color: rgba(255,255,255, 0);
+	color: #016499;
+}
+
+nav ul li a:hover {
+	color: #A30006;
+}
+
+div img {
+	width: 400px;
+	height: auto;
+}
+
+.personajes {
+	border: 1px solid #274892;
+	background-color: rgba(231,228,220, 0.75);
+	margin: 10px;
+	padding: 10px;
+	width: 75%;
+}
+
+.personajes h2 {
+	color: green;
+}
+
+.personajes p{
+	color: #5965BB;
+}
+
+.personajes a{
+	text-decoration: none;
+	padding: 5px;
+	color: #ffffff;
+	background-color: #1883ba;
+	border-radius: 6px;-
+}
+
+.personajes a:hover {
+	color: #666;
+	background-color: #FDA670;
+}
+
+footer p {
+	background-color: rgba(231,228,220, 0.75);
+	margin: 10px;
+	padding: 10px;
+	text-align: right;
+	color: red;
+}
+
+nav {
+	border: 1px solid #274892;
+	background-color: rgba(231,228,220, 0.75);
+	margin: 10px;
+	padding: 1px;
+}
+
+.dereya {
+	margin-top: 1px;
+	position: absolute;
+	left: 1050px;
+	width: 210px;
+	background-color: rgba(231,228,220, 0.75);
+	overflow: auto;
+	outline: 1px solid #000;
+	padding: 5px 31px;
+}
+
+.dereya h2 {
+	color: green;
+}
+
+.dereya a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: #ffffff;
+	background-color: rgba(255,255,255, 0);
+	color: #016499;
+}
+
+.dereya a:hover {
+	color: #A30006;
+}
