@@ -1,0 +1,113 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+footer {
+	clear: both;
+	text-align: right;
+	background-color: #222442;
+	color: #fff;
+	padding: 1em;
+}
+
+main article h1 {
+	padding: 25px;
+	color: #77A8A6;
+	font-size: 2em;
+}
+
+main article h3 {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 5px;
+	color: #77A8A6;
+	font-size: 2em;
+}
+
+h2 {
+	color: #486175;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+p {
+	color: #0A060F;
+	font-size: 1em;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #B1DBC3;
+	text-decoration: none;
+}
+
+main article section a {
+	padding: 5px;
+	color: #B1DBC3;
+}
+
+header {
+	background-color: #B1DBC3;
+	height: 100px;
+	padding: 3px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header > img {
+	width: 240px;
+}
+
+nav {
+	width: 33.3%;
+	display: inline-block;
+	float: left;
+}
+
+nav ul li a:hover{
+	background-color: #B1DBC3;
+	color: white;
+	border-radius: 1em;
+}
+
+
+nav ul {
+	list-style: none;
+}
+
+main {
+	width: 66.6%;
+	float: left;
+}
+
+
+section {
+	padding: 10px;
+	margin: 10px;
+}
+
+main article section {
+	border: 1px solid #000;
+}
+
+.noticia {
+	padding: -25px;
+}
+
+
+;.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
