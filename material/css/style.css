@@ -1,0 +1,26 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.nav-item a.nav-link > img {
+	width: 50px;
+	margin-right: 1em;
+}
+
+.navbar-brand span.logo {
+	font-size: 1.5em;
+}
+
+.navbar-brand img {
+	height: 50px;
+	margin-right: 0.5em;
+}
+
+.navbar-light .navbar-brand {
+	color: #81A4C9;
+}
+
+footer {
+	background-color: #81A4C9;
+}
