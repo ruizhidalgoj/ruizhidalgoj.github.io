@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen JS - Ejercicio 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" method="POST" name="registro"  onsubmit="return validar()">
+        <div class="campo">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name"/>
+        </div>
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div class="campo">
+            <button type="submit">Enviar mensaje</button>
+        </div>
+    </form>
+    <div id="resultado" method="GET">
+        <p>Formulario sin enviar</p>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
